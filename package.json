@@ -1,0 +1,22 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Oleg Marko <olegmarko7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-node": "^8.0.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
