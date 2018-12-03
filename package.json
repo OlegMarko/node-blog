@@ -5,16 +5,22 @@
   "author": "Oleg Marko <olegmarko7@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "cross-env PORT=8080 node index.js",
     "dev": "nodemon index.js"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-node": "^8.0.0",
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.18.7",
+    "prettier": "^1.15.2"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14"
   },
   "engines": {
     "node": ">=6.0.0"
